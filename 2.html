@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    <title>WEB1-CSS</title>
+    <meta charset='utf/8'>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1><a href="index.html">WEB</a></h1>
+    <input type="button" value="night" onclick="
+    document.querySelector('body').style.background='black';
+    document.querySelector('body').style.color='white';
+    " />
+    <input type="button" value='day' onclick="
+    document.querySelector('body').style.background='white';
+    document.querySelector('body').style.color='black';
+    " />
+    <div id="grid">
+        <ol>
+            <li><a href="web.html">home</a></li>
+            <li><a href="1.html" class="saw">HTML</a></li>
+            <li><a href="2.html" class="saw" id="active">CSS</a></li>
+            <li><a href="3.html" class='saw'>JavaScript</a></li>
+        </ol>
+        <div id="article">
+            <h2>CSS이란 무엇인가?</h2>
+            <p>Lorem, ipsum dolor<a href="https://en.wikipedia.org/wiki/Cascading_Style_sheets"> sit amet consectetur</a> adipisicing elit.<br>
+            Ipsum possimus, deleniti, similique optio adipisci,<br>
+            laudantium dolorem accusantium saepe harum porro explicabo officiis! <br>
+            Aliquid nemo suscipit id minus autem impedit quae!</p>
+        </div>
+    </div>
+</body>
